@@ -7,9 +7,26 @@
 <script src="js/scripts.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Voting Information</title>
 </head>
 <body>
-  
+  <div class = "container">
+  <h1>Welcome to the Voting Information Page</h1>
+
+  <form id="ageInput">
+    <div class="form-group">
+      <label for="userAge">Enter age and click submit: </label>
+      <input id="userAge" class="form-control" type="number">
+      <button type="submit" class="btn btn-danger" id="userAge" form="ageInput">Submit!</button> 
+    </div>
+  </form>
+  </div>
+
+  <div id= "voting">
+    <p>voting age</p>
+  </div>
+  <div id="under-18">
+    <p>under 18</p>
+  </div>
 </body>
 </html>
